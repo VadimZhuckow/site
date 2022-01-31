@@ -1,0 +1,38 @@
+.block_projeckt{
+    
+   width:1200px;
+   margin:0 auto;
+}
+.project_title{
+    /* border:1px solid pink; */
+    
+    
+    display:flex;
+    justify-content: space-between;
+    margin-top:150px;
+}
+.project_title>h2{
+    color:white;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    width: 428px;
+}
+.project_title>span>svg{
+    margin-left:20px;
+}
+.project_title>span{
+    margin-top: 80px;
+    color: #A1C5E9;
+}
+.project_images{
+   
+    gap:30px;
+    margin-top: 50px;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.project_images>div{
+    width: 540px;
+    height: 307px;
+}

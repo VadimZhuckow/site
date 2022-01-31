@@ -1,0 +1,17 @@
+@import './preview.css';
+@import './about.css';
+@import './service.css';
+@import './project.css';
+@import './founders.css';
+@import './rewiew.css';
+@import './grou.css';
+@import './footer.css';
+main{
+    margin: 0% auto;
+    margin-top:58px;
+    /* border: 2px solid green; */
+    max-width: 1440px;
+}
+
+
+

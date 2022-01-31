@@ -1,0 +1,100 @@
+.block_grou{
+    
+    /* border:1px solid red; */
+    width: 1440px;
+    height: 465px;
+    margin-top:150px;
+    background: #1E2028;
+    
+}
+.grou_title{
+    text-align: center;
+}
+.grou_title>h2{
+    margin:0 auto;
+    padding-top:50px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 80px;
+    
+    color:white;
+    width: 647px;
+    height: 160px;
+}
+.grou_title>button{
+    margin-top:36px;
+    background: #4080BF;
+    border-radius: 10px;
+    color:white;
+    width: 157px;
+    height: 53px;
+    margin-bottom: 30px;
+}
+.grou_foot{
+    display:flex;
+    justify-content: space-between;
+    width: 773px;
+    
+    margin:0 auto;
+}
+.foot_one{
+width: 235px;
+border-left: 1px solid white;
+border-right:1px solid white;
+
+}
+.foot_one>h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color:white;
+    text-align: center;
+    }
+.foot_one>p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color:white;
+}
+.foot_two{
+    width: 235px;
+    border-left: 1px solid white;
+    border-right:1px solid white;
+
+}
+.foot_two>h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color:white;
+    text-align: center;
+    }
+.foot_two>p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color:white;
+}
+.foot_tree{
+        width: 235px;
+        border-left: 1px solid white;
+        border-right:1px solid white;
+    
+}
+.foot_tree>h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color:white;
+    text-align: center;
+    }
+.foot_tree>p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color:white;
+}

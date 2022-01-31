@@ -1,0 +1,39 @@
+header{
+
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* border: 2px solid green; */
+    max-width: 1440px;
+    margin: 0% auto;
+}
+.header{
+    padding-top:15px ;
+    /* border: 2px solid red; */
+    grid-column-start:2 ;
+    grid-column-end: 12;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 14px;
+    line-height: 21px;
+    color:white;
+}
+
+.header_nav>ul{
+    display:flex;
+    column-gap:40px;
+    font-size: 14px;
+}
+.header_btn>button{
+    color:white;
+    width: 157px;
+    height: 53px;
+    background: #4080BF;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    border:none;
+}
